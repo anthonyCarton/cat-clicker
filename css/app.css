@@ -1,3 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#cat-click {
+	color: rgba(255, 0, 255, .80);
+	font-size: 30rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	width:100%;
+	background: url('../img/cat.jpg') no-repeat center;
+}
