@@ -3,14 +3,24 @@
 
 #container {
 	width: 100%;
-	margin: 0 auto;
 }
 
-#cat-click {
+button {
 	color: rgba(255, 0, 255, .80);
-	font-size: 30rem;
 	font-family: sans-serif;
 	font-weight: bold;
+}
+.cat-clicker {
 	width:100%;
-	background: url('../img/cat.jpg') no-repeat center;
+	background: red;
+}
+
+.cat-clicker h1 {
+	font-size: 3rem;
+	margin:0;
+
+}
+.cat-clicker p {
+	font-size: 30rem;
+	margin:0;]
 }
