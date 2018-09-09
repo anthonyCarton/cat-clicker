@@ -11,10 +11,15 @@ window.addEventListener('load', function() {
 	}
 
 	let cats = [];
-	let init = function (name, img) {
-		cats.push(new Cat('bill', 'cat-01.jpg'));
-		cats.push(new Cat('ted', 'cat-02.jpg'));
 
+	let newCat = function(name, img) {
+		cats.push(new Cat(name, img));
+	};
+
+	newCat('bill', 'cat-01.jpg');
+	newCat('ted', 'cat-02.jpg');
+
+	let init = function () {
 		let container = document.querySelector('#container');
 
 		cats.forEach(function(cat) {
