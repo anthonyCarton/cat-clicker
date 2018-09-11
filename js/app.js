@@ -44,5 +44,7 @@ window.addEventListener('load', function() {
 				catsCount.innerText = cat.count;
 			});
 		});
+
+		// build clickable list
 	}();
 });
